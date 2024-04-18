@@ -57,6 +57,25 @@ Una vez que el proyecto esté en funcionamiento, puedes realizar las siguientes 
 - Consultar libros disponibles para préstamo.
 - Consultar el historial de préstamos por lector.
 
+
+## Ejecución de pruebas
+
+Para ejecutar las pruebas en este proyecto, sigue estos pasos:
+
+1. Asegúrate de haber compilado el proyecto con Maven utilizando el siguiente comando:
+
+    ```
+    mvn clean package
+    ```
+
+2. Una vez compilado el proyecto, ejecuta el siguiente comando para ejecutar las pruebas:
+
+    ```
+    mvn test
+    ```
+
+Esto ejecutará todas las pruebas en el proyecto y mostrará los resultados en la consola. Asegúrate de que todas las pruebas pasen correctamente antes de realizar cambios importantes en el código.
+
 ## Contribuciones
 
 Si encuentras algún error o tienes alguna sugerencia de mejora, por favor envía un mail a enriquegomezlucena@gmail.es
