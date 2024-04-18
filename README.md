@@ -1,5 +1,4 @@
-# DAM-ILERNA-ACCESO-A-DATOS-PAC-DESARROLLO-UF-3
-GESTION DE BIBLIOTECA
+# Gestión de Biblioteca
 
 Este es un proyecto de gestión de biblioteca desarrollado en Java utilizando Hibernate como framework de persistencia. El proyecto permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en libros y lectores, así como también gestionar préstamos de libros.
 
@@ -20,7 +19,17 @@ Para ejecutar este proyecto, necesitarás tener instalado lo siguiente:
 
 Asegúrate de que el archivo `hibernate.cfg.xml` esté correctamente configurado con la información de conexión a tu base de datos MySQL.
 
-## Ejecución
+## Configuración de Variables de Entorno
+
+Para que la aplicación se conecte correctamente a la base de datos MySQL, es necesario configurar las siguientes variables de entorno en el arhivo `hibernate.cfg.xml`:
+
+- `DB_BASEDATA_NAME`: El nombre de la base de datos MySQL a la que se conectará la aplicación.
+- `DB_USER_NAME`: El nombre de usuario de MySQL con permisos para acceder a la base de datos.
+- `DB_PASSWORD`: La contraseña del usuario de MySQL.
+
+Asegúrate de asignar valores adecuados a estas variables de entorno antes de ejecutar la aplicación.
+
+### Ejecución
 
 1. Clona este repositorio en tu máquina local.
 2. Navega al directorio del proyecto.
@@ -55,4 +64,3 @@ Si encuentras algún error o tienes alguna sugerencia de mejora, por favor enví
 ## Licencia
 
 Todos los Derechos de Autor Pertenecen a Enrique José Gómez Lucena
-
